@@ -2,7 +2,7 @@
 body{
     background-color: black;
     font-family: 'Titan One', cursive;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .konchat,.konchatsolo{
      overflow-y: scroll;
