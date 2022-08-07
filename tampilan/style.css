@@ -1,0 +1,440 @@
+body{
+    background-color: black;
+}
+.konchat,.konchatsolo{
+    overflow-y: scroll;
+   
+      margin: 0px auto;
+      height: 90vh;
+      max-width: 400px;
+      color: white;
+      background:rgba(1, 1, 1, 0.8) ;
+      border-top: 4px solid white;
+      border-left: 4px solid white;
+      border-right: 4px solid white;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+  }
+  .headChat,.headChatsolo{
+      border-bottom: 4px solid white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .bodychat,.bodychatsolo{
+      margin-top: 10px;
+  }
+  .header,.headersolo{
+    margin-left: 3px;
+  }
+  .inputchat{
+      display: flex;
+      height:5.5vh;
+      max-width:400px;
+      margin: 0px auto;
+      border-bottom: 4px solid white;
+      border-left: 4px solid white;
+      border-right: 4px solid white;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+  }
+  
+  .inputchat textarea{
+      height: 5.5vh;
+      border-bottom-left-radius: 20px;
+      padding-left: 20px;
+      word-break: break-all;
+      width: 80%;
+  }
+  .inputchat button{
+      height: 5.5vh;
+      border-bottom-right-radius: 20px;
+      width: 20%;
+  }
+  .containerChat{
+    display: flex;
+    flex-direction: column;
+    background:rgba(225,225,225, 0.5) ;
+    border-radius: 10px;
+    justify-content: center;
+    width:400px ;
+}
+.containerChat h1{
+    text-align: center;
+}
+.chat{
+    display: flex;
+    height: 97vh;
+    align-items: center;
+    justify-content: center;
+}
+.chat-create{
+    display: flex;
+    height: 97vh;
+    align-items: center;
+    justify-content: center;
+}
+.nama-room{
+    margin: 20px 10px 10px;
+    border: 2px solid ;                                                                                                                                                         
+    padding-left: 10px;
+    border-radius: 10px;
+    height: 40px;
+}
+.Join-room{
+    background: lightblue;
+    padding: 2px 5px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.prom{
+    display: flex;
+    flex-direction: column;
+}
+.btn-join{
+    margin: 20px 10px;
+    padding: 5px;
+}
+.btn-create{
+    margin: 20px 10px;
+    padding: 5px;
+}
+.pesan-r{
+    text-align: end;
+}
+.create{
+    display: flex;
+    justify-content: center;
+}
+.create-room{
+    background: lightblue;
+    padding: 2px 5px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.penanda{
+    display: flex;
+    word-break: break-all;
+}
+.penandariw{
+    display: flex;
+    word-break: break-all;
+    justify-content: flex-end;
+}
+.chatuser{
+    display: flex;
+    position: relative;
+    max-width: 410px;
+    background:rgba(225,225,225, 0.5) ;
+    border-radius: 20px;
+    margin:15px 10px;
+    flex-direction: column;
+    padding-left: 10px;
+    
+}
+.chatuser .chatnya{
+    max-width: 410px;
+    padding-left: 5px;
+    font-size: 23px;
+    margin:10px 0px;
+}
+.namauserchat{
+    font-size: 20px;
+    margin: 0px;
+    
+}
+.p{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    padding-top: 5px;
+    margin: 0px;
+}
+.you{
+    color: rgb(253, 237, 5);
+    margin-right: 5px;
+}
+.other{
+    color: black;
+    margin-right: 5px;
+    transition: all 1s;
+    border-radius: 10px;
+}
+.other:hover{
+    background-color: lightblue;
+}
+.ON{
+    text-align: left;
+}
+.create-nama{
+    margin: 20px 10px 10px;
+    border: 2px solid ;                                                                                                                                                         
+    padding-left: 10px;
+    border-radius: 10px;
+    height: 40px;
+}
+.container-room{
+    margin: auto;
+    max-width: 400px;
+    overflow-y: scroll;
+    height: 95vh;
+    color: rgb(253, 237, 5);
+    border: 4px solid white;
+    background:rgba(1, 1, 1, 0.8) ;
+    border-radius: 15px;
+}
+.container-room h1{
+    color: white;
+    text-align: center;
+
+}
+.bglist{
+    background:rgba(225,225,225, 0.5) ;
+    margin: 15px 15px;
+    border-radius: 10px;
+    height: 60px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.bglist-info{
+    background:rgba(225,225,225, 0.5) ;
+    margin: 15px 15px;
+    border-radius: 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.bglist h2{
+    padding-left: 5px;
+    margin-right: 10px;
+}
+.btn-list{
+    margin-right:5px ;
+    background-color: black;
+    padding: 5px 10px;
+    color: gold;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.msg,.errReg,.errLog{
+    color: darkred;
+    font-size: 20px;
+    text-align: center;
+}
+.back{
+    font-size: 30px;
+    margin-right: 10px;
+}
+#cok{
+    position: absolute;
+}
+.btn-log-sign{
+    position:absolute;
+}
+.divnya{
+    display: flex;
+    justify-content: flex-end;
+    z-index: 100;
+  
+}
+.login,.sign{
+    background:black ;
+    border:4px solid rgb(48, 0, 0); 
+    color: white;
+    margin: 10px;
+    box-shadow: 2px 2px rgba(255, 255, 255,0.5);
+    border-radius: 10px;
+}
+.profile,.logout,.crt{
+    display: none;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.profile{
+    margin: 10px;
+    transform: translateX(100px);
+    transition: 0.5s ease;
+    transition-delay: 0s;
+}
+.logout{
+    transform: translateX(100px);
+    transition: 0.5s ease;
+    transition-delay: 0.3s;
+}
+.crt{
+    font-size: 35px;
+    transform: translateX(100px);
+    transition: 0.5s ease;
+    transition-delay: 0.6s;
+
+}
+.your-room{
+    display: block;
+    background:white ;
+    color: black;
+    border:4px solid rgb(48, 0, 0);
+    padding: 2px 4px;
+    margin: 5px 5px;
+    box-shadow: 2px 2px rgba(255, 255, 255,0.5);
+    border-radius: 10px;
+}
+.all-room{
+    display: block;
+    background:black ;
+    color: white;
+    border:4px solid rgb(48, 0, 0);
+    padding: 2px 4px;
+    margin: 5px 5px;
+    box-shadow: 2px 2px rgba(255, 255, 255,0.5);
+    border-radius: 10px;
+}
+
+.connavroom{
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+.map-room{
+    display: none;
+}
+.info-room-list{
+    display: none;
+}
+.info-img{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.bi{
+    font-size: 30px;
+    color: white;
+    
+}
+.nav{
+    display: block;
+    margin: 5px 10px;
+    z-index: 2;
+    position: absolute;
+    
+}
+.nolog{
+    color: white;
+    font-size: 20px;
+}
+.user-room{
+    height: 80%;
+}
+.keluardandelete{
+    height: 5%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    display: flex;
+}
+.btnklrdel{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid gold;
+}
+.hapus{
+    display: none;
+}
+.inchat{
+    position: absolute;
+}
+.search{
+    margin-left: 5px;
+    width: 70%;
+    margin-right: 5px;
+}
+.searchdiv{
+    display: none;
+    margin: 5px;
+    justify-content: center;
+}
+.bi-search{
+    font-size: 10px;
+}
+body{
+    font-family: 'Titan One', cursive;
+    overflow: hidden;
+}
+.roomProfile{
+    width: 50px;
+    border-radius: 50px;
+}
+.picRoom,.picRoomSolo{
+    display: flex;
+    padding-right: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-left: 5px;
+    height: 100%;
+    align-items: center;
+    transition:all 1s;
+}
+
+.picRoom:hover{
+    background-color: lightblue;
+}
+.profilel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#img{
+    width: 150px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.bi-power,.bi-plus-square-fill{
+    color: black;
+}
+.delback{
+    display: flex;
+    justify-content: flex-end;
+}
+.trash,.trashsolo{
+    margin-top: 20px;
+    margin-right: 10px;
+    color: red;
+    display: none;
+}
+#checked{
+    margin-top: 40px;
+    margin-right: 40px;
+    position: absolute;
+}
+.dipilih{
+    background: red;
+}
+/* .ee{
+    display: block;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: red; */
+/* } */
+.block{
+    display: block;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: red;
+}
+.cc,.ccsolo{
+    margin-top: 20px;
+    display: none;
+}
+.tampilchatsolo{
+    display: none;
+}
+.bi-arrow-clockwise:hover{
+    transform: rotateZ(360deg);
+    transition: 1s all;
+    cursor: pointer;
+}

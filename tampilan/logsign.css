@@ -1,0 +1,175 @@
+.loginsign{
+    display:flex;
+  
+    flex-direction: column;
+    background:rgba(225,225,225, 0.5) ;
+    border-radius: 10px;
+    justify-content: center;
+    width:400px ;
+ }
+ .loginsign h1{
+    text-align: center;
+ }
+
+.logsig,.logsig2,.tot{
+    display: none;
+    height: 97vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.pee,.ptim{
+    display: flex;
+    flex-direction: column;
+}
+
+.kliklogin,.kliksign{
+    margin: 20px 10px;
+    padding: 5px;
+}
+
+.containerProfile{
+    display:flex;
+    flex-direction: column;
+    background:rgba(225,225,225) ;
+    border-radius: 10px;
+    justify-content: center;
+    width:400px ;
+}
+.imgcon{
+     align-items: center;
+     display: flex;
+     justify-content: center;
+}
+.img{
+    margin-top: 10px;
+    width: 190px;
+    border-radius: 160px;
+    border: 2px solid black;
+}
+.emailpro,.idpro{
+   padding-left: 10px;
+   margin-bottom: 0px;
+}
+.proname{
+    text-align: center;
+}
+.tampillog{
+    height: 97vh;
+    right: -200px;
+    display: flex;
+    flex-direction:column ;
+    text-align: center;
+    background:rgba(255, 255, 255);
+    position: absolute;
+    transition: 0.4s;
+    border-left: 14px solid blue;
+   
+}
+.bi-x-lg{
+    color: red;
+}
+.ok{
+    right: 0px;
+}
+.ock{
+    font-size: 40px;
+}
+.loaddiv{
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+}
+.loader {
+    border: 7px solid #f3f3f3; /* Light grey */
+    border-top: 7px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+  }
+.search-otheruser{
+    display: none;
+    transform: translateX(100px);
+    transition:0.5s ease;
+    transition-delay: 0.9s;
+    color: black;
+    font-size: 35px;
+}
+.b:hover{
+    background-color: black;
+    color: white;
+}
+
+.b .tiltop{
+    position: absolute;
+    transform: translateY(-50px);
+    right: 20px;
+    background-color: white;
+    padding: 3px;
+    pointer-events: none;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 0;
+}
+.b:hover .tiltop{
+    transition: all 0.5s ease ;
+    right: 63px;
+    color:black;
+    opacity: 1;
+}
+
+.transisi{
+    transform: translateY(0px);
+  
+}
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  @media(max-width:1200px){
+      body{
+        overflow: hidden;
+      }
+  }
+
+.Search-User{
+    padding: 0px 5px 0px 5px;
+}
+.searchUser{
+    display: none;
+    margin-top: 30px;
+    transform: translateX(300px);
+    transition:1s;
+}
+.searchUser.searchUserAnim{
+    transform: translateX(0px);
+}
+.searchUserAnim{
+    transform: translateX(0px);
+}
+.Userrr img{
+   width: 50px;
+   margin-right: 10px;
+   border-radius: 50px;
+}
+.Userrr{
+    border-top: 1px  solid;
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 5px 0px 5px;
+    margin: 0px 20px 10px 20px;
+}
+.input-searchUser{
+    border: 2px solid black;
+    padding: 5px 0px 5px 0px;
+    border-radius: 3px;
+}
+.btn-cari{
+    border-radius: 3px;
+    padding: 5px 5px 5px 5px;
+}
