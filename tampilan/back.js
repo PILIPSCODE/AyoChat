@@ -8,8 +8,7 @@ backchatprof.addEventListener("click",() => {
     get()
     konchat.style.display ="none"
     containerProfile.style.display = "none"
-    navClose.style.display = "block"
-    navClose.classList.toggle('ok')
+    navClose.style.display = "none"
     transisi.forEach((e) => {
         e.classList.toggle('transisi')
     })

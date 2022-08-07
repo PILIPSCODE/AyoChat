@@ -210,24 +210,26 @@ const AnimSearch = document.querySelector('.searchUser')
 
 nav.addEventListener('click',(e) => {
     nav.style.display= "none";
-    navClose.classList.toggle('ok')
     closEe.style.display ="block"
-   
+    navClose.style.display ="flex"
     transisi.forEach((e) => {
-        e.classList.toggle('transisi')
+        setTimeout(() => {
+            e.classList.toggle('transisi')
+        })
     })
   
    
 })
 closEe.addEventListener('click',(e) => {
     closEe.style.display ="none"
+    navClose.classList.toggle('hidden')
     AnimSearch.classList.remove('searchUserAnim')
     setTimeout(() => {
+        navClose.style.display ="none"
         awkoakwok.style.display="block";
         searchUserr.style.display="none"
         navClose.style.overflowY = "";
         nav.style.display= "block";
-        navClose.classList.toggle('ok')
     },1100)
     transisi.forEach((e) => {
         e.classList.toggle('transisi')

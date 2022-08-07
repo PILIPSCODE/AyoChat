@@ -1,9 +1,11 @@
+
 body{
     background-color: black;
+    font-family: 'Titan One', cursive;
+    overflow: hidden;
 }
 .konchat,.konchatsolo{
-    overflow-y: scroll;
-   
+     overflow-y: scroll;
       margin: 0px auto;
       height: 90vh;
       max-width: 400px;
@@ -236,7 +238,6 @@ body{
     display: flex;
     justify-content: flex-end;
     z-index: 100;
-  
 }
 .login,.sign{
     background:black ;
@@ -361,10 +362,6 @@ body{
 .bi-search{
     font-size: 10px;
 }
-body{
-    font-family: 'Titan One', cursive;
-    overflow: hidden;
-}
 .roomProfile{
     width: 50px;
     border-radius: 50px;
@@ -437,4 +434,7 @@ body{
     transform: rotateZ(360deg);
     transition: 1s all;
     cursor: pointer;
+}
+.room-list{
+    overflow: hidden;
 }

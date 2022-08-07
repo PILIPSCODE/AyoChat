@@ -55,9 +55,8 @@
     text-align: center;
 }
 .tampillog{
+    display:none;
     height: 97vh;
-    right: -200px;
-    display: flex;
     flex-direction:column ;
     text-align: center;
     background:rgba(255, 255, 255);
@@ -66,6 +65,7 @@
     border-left: 14px solid blue;
    
 }
+
 .bi-x-lg{
     color: red;
 }
@@ -96,8 +96,12 @@
     color: black;
     font-size: 35px;
 }
+.b{
+    overflow-x: hidden;
+}
 .b:hover{
     background-color: black;
+    cursor: pointer;
     color: white;
 }
 
@@ -120,7 +124,7 @@
 }
 
 .transisi{
-    transform: translateY(0px);
+    transform: translateX(0px);
   
 }
 
@@ -131,7 +135,7 @@
 
   @media(max-width:1200px){
       body{
-        overflow: hidden;
+       
       }
   }
 
