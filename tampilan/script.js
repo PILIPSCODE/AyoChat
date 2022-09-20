@@ -990,5 +990,16 @@ function pili(m){
 
 
 
-// loading
 
+
+
+
+
+
+
+
+
+
+//ada pesan langsung up elementnya
+
+const element = document.querySelector();
