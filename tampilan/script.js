@@ -36,7 +36,7 @@ const routerjoin = document.querySelector(".Join-room")
 const listroom = document.querySelectorAll(".list-room")
 const roomlist = document.querySelector(".room-list")
 const msg = document.querySelector(".msg")
-const ENDPOINT ="https://ayo-chat-pknw.vercel.app/"
+const ENDPOINT ="https://ayo-chat-pknw.vercel.app"
 
 
 // buble chat versi grup
