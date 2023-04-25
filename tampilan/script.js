@@ -653,7 +653,7 @@ for(let i = 0; i < listroom.length; i ++){
 
 const bodylistRoom = document.querySelector(".map-room")
 const getListRoom = () => {
-    fetch(` https://ayochat-production.up.railway.app`)
+    fetch(`https://ayochat-production.up.railway.app`)
     .then((response) => response.json())
     .then((response) => {
      let listroom ="";
@@ -1002,4 +1002,4 @@ function pili(m){
 
 //ada pesan langsung up elementnya
 
-const element = document.querySelector();
+
