@@ -36,7 +36,7 @@ const routerjoin = document.querySelector(".Join-room")
 const listroom = document.querySelectorAll(".list-room")
 const roomlist = document.querySelector(".room-list")
 const msg = document.querySelector(".msg")
-const ENDPOINT ="https://ayo-chat-pknw.vercel.app"
+const ENDPOINT ="https://ayochat-production.up.railway.app"
 
 
 // buble chat versi grup
@@ -653,7 +653,7 @@ for(let i = 0; i < listroom.length; i ++){
 
 const bodylistRoom = document.querySelector(".map-room")
 const getListRoom = () => {
-    fetch(` https://ayochatt.herokuapp.com/ListRoom`)
+    fetch(` https://ayochat-production.up.railway.app`)
     .then((response) => response.json())
     .then((response) => {
      let listroom ="";
