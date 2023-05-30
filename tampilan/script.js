@@ -36,7 +36,11 @@ const routerjoin = document.querySelector(".Join-room")
 const listroom = document.querySelectorAll(".list-room")
 const roomlist = document.querySelector(".room-list")
 const msg = document.querySelector(".msg")
+<<<<<<< HEAD
 const ENDPOINT =" http://localhost:3001"
+=======
+const ENDPOINT ="https://ayochat-production.up.railway.app"
+>>>>>>> 8a92f5f8b649bc245ef8636ea432cd655a32efb4
 
 
 // buble chat versi grup
@@ -653,7 +657,11 @@ for(let i = 0; i < listroom.length; i ++){
 
 const bodylistRoom = document.querySelector(".map-room")
 const getListRoom = () => {
+<<<<<<< HEAD
     fetch(` http://localhost:3001/ListRoom`)
+=======
+    fetch(`https://ayochat-production.up.railway.app`)
+>>>>>>> 8a92f5f8b649bc245ef8636ea432cd655a32efb4
     .then((response) => response.json())
     .then((response) => {
      let listroom ="";
@@ -1002,4 +1010,4 @@ function pili(m){
 
 //ada pesan langsung up elementnya
 
-const element = document.querySelector();
+
