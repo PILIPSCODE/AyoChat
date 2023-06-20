@@ -6,8 +6,8 @@ const http = require("http")
 const server = http.createServer(app)
 const { Server} = require('socket.io');
 const io = new Server(server);
-// app.use(express.static("tampilan"));
-const serveStatic = require('serve-static');
+const path = require('path')
+
 const routerRoom = require('./models/router')
 const connection = require("./models/db")
 const auth = require('./Router/login')
@@ -17,7 +17,7 @@ const routechat = require("./Router/chatuser")
 const listuserinroom = require("./Router/listUserinroom")
 app.use(express.json())
 connection()
-app.use(serveStatic('tampilan'));
+app.use(express.static(path.join(__dirname,'tampilan')))
 
 app.use('/',roomVsoloR)
 
