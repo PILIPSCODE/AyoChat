@@ -18,6 +18,8 @@ const listuserinroom = require("./Router/listUserinroom")
 app.use(express.json())
 connection()
 app.use(express.static(path.join(__dirname,'tampilan')))
+app.use(express.static(path.join(__dirname,'tampilan',"style.css")))
+app.use(express.static(path.join(__dirname,'tampilan',"logsign.css")))
 
 app.use('/',roomVsoloR)
 
