@@ -2,17 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "./index.js",
+        "src": "index.js",
         "use": "@vercel/node"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "/tampilan"
+        "dest": "/index.js"
       }
-    ],
-    "redirects": [
-    { "source": "/tampilan", "destination": "/index.html", "permanent": false }
-  ]
+    ]
   }
