@@ -11,5 +11,8 @@
         "src": "/(.*)",
         "dest": "/tampilan"
       }
-    ]
+    ],
+    "redirects": [
+    { "source": "/tampilan", "destination": "/index.html", "permanent": false }
+  ]
   }
