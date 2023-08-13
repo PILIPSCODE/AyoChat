@@ -7,7 +7,7 @@ const server = http.createServer(app)
 const { Server} = require('socket.io');
 const io = new Server(server);
 const path = require('path')
-
+app.use(express.static('tampilan'));
 const routerRoom = require('./models/router')
 const connection = require("./models/db")
 const auth = require('./Router/login')
